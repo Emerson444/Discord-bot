@@ -65,7 +65,7 @@ async def play(interaction: discord.Interaction, url: str):
         return
     await interaction.response.defer()
     if not interaction.user.voice:
-        await interaction.followup.send('Entra na caralha do canal porra! 🎧')
+        await interaction.followup.send('Entra no canal de voz! 🎧')
         return
     channel = interaction.user.voice.channel
     voice_client = interaction.guild.voice_client
