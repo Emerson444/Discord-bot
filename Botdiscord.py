@@ -4,7 +4,7 @@ import yt_dlp
 import asyncio
 import os
 
-CANAL_PERMITIDO = 1490066059527585922
+CANAL_PERMITIDO = 
 
 FFMPEG_OPTIONS = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
